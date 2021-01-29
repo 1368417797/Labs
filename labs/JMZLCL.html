@@ -1,33 +1,35 @@
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content=" 精密重力测量研究中心">
-    <title>精密重力测量研究中心</title>
-    <script src="https://webapi.amap.com/maps?v=1.4.15&key=7955a5ca2b71eda7195485eec7aa8206"></script>
-    <link rel="stylesheet" type="text/css" href="../css/3.css">
-</head>
-<body>
-    <div class="back">
-        <h1 class="texth1"> 精密重力测量研究中心</h1>
-        <a href="../pages/lab_list.html">
-            <img id="goback" src="../images/backbutton.png"/>
-        </a>
-    </div>
-    <div id="dc1"></div>
-    <div id="dc2"></div>
-        <img class="image_top" src="../images/house.png"/>
-        <div id="box" >
-            <h2 class="texth2a">简介</h2>
-                <pr class="text_83X1"> 华中科技大学引力中心自1983年以来，一直从事与引力有关的各种物理规律实验检验及相关理论问题研究，在教育部、科技部、湖北省等长期大力支持下，经过三十余年的努力，不仅成为我国重要引力实验研究基地，而且在国际舞台上占有一席之地。2000年批准成立引力与量子湖北省重点实验室；2002年批准成立基本物理量测量教育部重点实验室；2006年批准成立科技部引力与固体潮国家重点野外科学观测研究站；2015年获批建设精密重力测量国家重大科技基础设施。<pr>
-                    <h2 class="texth2b">图片</h2>
-            <div id="photo">
-                    <img  class="img1" src="../images/JMZLCL.png"/>
-            </div>
-            <h2 class="texth2c">位置</h2>
-            <div id="container"><div>
-    </div>
-    <script src="../js/map3.js"></script>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content=" 精密重力测量研究中心">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=no" />
+		<title>精密重力测量研究中心</title>
+		<link rel="stylesheet" type="text/css" href="../css/lab.css">
+		<script src="https://webapi.amap.com/maps?v=1.4.15&key=7955a5ca2b71eda7195485eec7aa8206"></script>
+	</head>
+	<body>
+		<div class="title">
+			<div class="back">
+				<img onclick="window.location='../pages/lab_list.html'" src="../images/backbutton.png" />
+			</div>		
+			<div class="pagetitle">
+				<p>详细介绍</p>
+			</div>
+		</div>	
+		<img id="greenDiv" src="../images/mode.png"></div>
+		<div id="grayDiv"></div>
+		<div class="contentDiv">
+			<p class="labName">精密重力测量研究中心</p>			
+			<p class="pTitle" style="top: 61px;">相关图片</p>
+			<img class="textDiv" style="top:110px;width: 296px;height: 160px;" src="../images/JMZLCL.png"></img>
+			<p class="pTitle" style="top: 270px;">介绍</p>
+			<div class="textDiv" style="top: 316px;">
+				华中科技大学引力中心自1983年以来，一直从事与引力有关的各种物理规律实验检验及相关理论问题研究，在教育部、科技部、湖北省等长期大力支持下，经过三十余年的努力，不仅成为我国重要引力实验研究基地，而且在国际舞台上占有一席之地。2000年批准成立引力与量子湖北省重点实验室；2002年批准成立基本物理量测量教育部重点实验室；2006年批准成立科技部引力与固体潮国家重点野外科学观测研究站；2015年获批建设精密重力测量国家重大科技基础设施。
+			</div>
+			<p class="pTitle" style="top: 557px;">地理位置</p>
+			<div id="container" style="top: 607px;"></div>
+		</div>
+		<script src="../js/map_CL.js"></script>
+	</body>	
 </html>

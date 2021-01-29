@@ -1,4 +1,7 @@
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 	/*按钮样式*/
 .button {
 				box-shadow: 5px 5px 2px #888888;
@@ -17,7 +20,7 @@
 				.white {
 				position: absolute;
 				left: 1px;
-				top: 586px;
+				top: 786px;
 				width: 144px;
 				height: 56px;
 				background: #FFFFFF;
@@ -39,7 +42,7 @@
 			.blue {
 				position: absolute;
 				left: 145px;
-				top: 586px;
+				top: 786px;
 				width: 216px;
 				height: 56px;
 				background: #2283b6;
