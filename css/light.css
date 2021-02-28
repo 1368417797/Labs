@@ -29,7 +29,7 @@
     }
     /*副标题*/
     .assistant{
-    white-space:nowrap
+    white-space:nowrap;
     width: 99px;
 	height: 30px;
 	left: 16px;
@@ -40,7 +40,7 @@
 	text-align: left;
     }
 .tip{
-    white-space:nowrap
+    white-space:nowrap;
     width: 99px;
 	height: 30px;
 	left: 16px;

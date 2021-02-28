@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'/>
+        <meta name="description" content="国家数字化设计与制造创新中心"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=no" />
+        <title>国家数字化设计与制造创新中心</title>
+        <link rel="stylesheet" type="text/css" href="../css/all lab.css">
+        <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.7&key=5a76c355d1bcb2a53841921eea9b9d24"></script>
+
+    </head>
+    <body>
+    <div class="title">
+            <div class="back">
+            <img onclick="window.location='../pages/lab-list.html'" src="../images/backbutton.png"/>
+        </div>
+        <div class="pagetitle">
+            <p>相关介绍</p>
+        </div>
+    </div>
+    <div>
+        <img id="lvdiv" src="../images/lab.png"></div>
+        <div id="huidiv"></div>
+        <div class="contentdiv">
+            <p class="labname">国家数字化设计与制造创新中心</p>
+            <p class="ptitle" style="top:61px;">相关图片</p>
+            <img class="textdiv" style="top:110px;" src="../images/lab.png"></img>
+            <p class="ptitle" style="top:270px">介绍</p>
+            <div class="textdiv"style="top:316px" >
+                lalalallalalla
+            </div>
+            <p class="ptitle"style="top:557px">地理位置</p>
+        <div id="container"style="top:607px">
+        </div>
+        <script >
+        var map = new AMap.Map('container',{
+            center:[116.397428,39.90923],
+            layers:[
+                new AMap.TileLayer.Satellite(),
+                new AMap.TileLayer.RoadNet()
+            ],
+            zooms: [4,18],
+            zoom:13
+        });
+        </script>
+        </div>
+    </body>
+</html>
