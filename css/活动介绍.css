@@ -74,8 +74,8 @@ body{
     left: 23px;
     top: 190px;
     color: #505050;
-    font-size: 18px;
-    line-height: 120%;
+    font-size: 16.5px;
+    line-height: 160%;
     text-align: left;
     position:absolute;
     z-index: 2;
@@ -98,8 +98,8 @@ body{
     left: 23px;
     top: 400px;
     color: #505050;
-    font-size: 18px;
-    line-height: 120%;
+    font-size: 16.5px;
+    line-height: 150%;
     text-align: left;
     position:absolute;
     z-index: 2;
@@ -122,8 +122,8 @@ body{
     left: 23px;
     top: 480px;
     color: #505050;
-    font-size: 18px;
-    line-height: 120%;
+    font-size: 16.5px;
+    line-height: 160%;
     text-align: left;
     position:absolute;
     z-index: 2;
